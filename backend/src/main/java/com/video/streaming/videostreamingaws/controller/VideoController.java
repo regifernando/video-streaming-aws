@@ -68,10 +68,10 @@ public class VideoController {
 //        return videoService.getAllComments(videoId);
 //    }
 //
-//    @GetMapping
-//    @ResponseStatus(HttpStatus.OK)
-//    public List<VideoDto> getAllVideos() {
-//        return videoService.getAllVideos();
-//    }
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public List<VideoDto> getAllVideos() {
+        return videoService.getAllVideos();
+    }
 
 }
