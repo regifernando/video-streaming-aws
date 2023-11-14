@@ -42,13 +42,16 @@ import {MatSnackBarModule} from "@angular/material/snack-bar";
 // import { CommentsComponent } from './comments/comments.component';
 import {MatMenuModule} from "@angular/material/menu";
 import { VideoPlayerComponent } from './video-player/video-player.component';
+import { VideoDetailComponent } from './video-detail/video-detail.component';
+// import { AuthConfigModule } from './auth/auth-config.module';
 @NgModule({
   declarations: [
     AppComponent,
     UploadVideoComponent,
     HeaderComponent,
     SaveVideoDetailsComponent,
-    VideoPlayerComponent
+    VideoPlayerComponent,
+    VideoDetailComponent
   ],
   imports: [
     BrowserModule,
